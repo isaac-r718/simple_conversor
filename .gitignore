@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local documents and generated Markdown
+/not_md/**
+!/not_md/.gitkeep
+/md/**
+!/md/.gitkeep
+
+# Local settings and environment
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Build artifacts and logs
+build/
+dist/
+*.log
